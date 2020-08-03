@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React, { Suspense, useEffect } from 'react'
 import {
   Redirect,
   Route,
@@ -16,6 +16,7 @@ const loading = (
 )
 
 const TheContent = () => {
+
   return (
     <main className="c-main">
       <CContainer fluid>
